@@ -1,0 +1,13 @@
+path: C:\Users\Admin\Desktop\project\fire_detection # dataset root dir
+train: C:\Users\Admin\Desktop\project\fire_detection\data\train  # train images (relative to 'path')
+val: C:\Users\Admin\Desktop\project\fire_detection\data\val  # val images (relative to 'path')
+test: C:\Users\Admin\Desktop\project\fire_detection\data\test  # test images (relative to 'path')
+
+# Classes
+names: ['smoke', 'fire']  # Replace with your actual class names
+
+# Counts
+nc: 2  # number of classes
+train_count: 14122
+val_count: 3099
+test_count: 4306
